@@ -1,0 +1,52 @@
+
+pointer
+referinta
+variabila
+constanta
+
+
+lista 	dinamica si statica
+multime dinamica si statica
+coada 	dinamica si statica
+stiva 	dinamica si statica
+
+enumeratie
+
+graf
+
+arbore
+arbore vid
+arbore binar
+
+search tree
+selection tree
+heap sort
+topologic sort
+
+parcurgere graf
+explorare graf
+adincime recursiv
+conex
+biconex
+
+dijkstra
+floyd
+prim
+kruskal
+kruskal selectie
+
+hash table
+
+
+
+cautare
+sortare
+
+divide et impera
+greedy
+backtraking
+
+
+
+
+

@@ -1,0 +1,322 @@
+
+limbaj de programare
+
+set de caractere 
+	litere 		a..z
+	cifre 		0-9
+	simboluri	
+	operatori	
+	spatiu		
+	
+identificatori 
+	denumiri utilizate acceptate de limbaj
+keywords
+	cuvinte cheie rezervate
+comentariu
+	//acesta este comentariu
+	/* acesta este un bloc de comntarii */
+separatori
+	caractere de separare
+	{ bloc }
+	()
+	;
+	spatiu
+sintaxa
+	limbajul are gramatica la fel ca o limba
+	sintaxa si morfologia propozitiei si frazei
+structura program 
+	#include <nume-librarie.h>
+	#preprocesare
+	declaratii de functii si clase
+	macrouri
+	functia main cu argumente 
+	interiorul functiei main 
+	alte functii din interiorul main
+tip de data
+	bit	1 sau 0
+	byte	8 biti
+	char 	caracter 8 biti litera , cifra ...
+	int  	intreg numeric
+	float 	numeric cu virgula
+	double 	float lung
+	bool  	boolean true or false
+	void 	vid
+	null 	nimic
+	string 	sir de caractere
+
+variabila
+	locatie de memorie care poarta o denumire
+	are o valoare si are o lungime in functie 
+	de tipul de data asociat locatiei
+
+constanta
+	o variabila care nu se poate modifica
+
+preprocesare
+	#include
+	#define
+	#if
+
+librari de functii
+	
+date 
+	datele sunt siruri de caractere 
+citire
+	cin
+	
+scriere
+	cout
+	
+
+expresii
+	
+operatii	expresie matematica
+operatori	+ - * / 
+operanzi	variable sau valori
+rezultat	
+asignare	=
+evaluare	
+
+evaluare expresii
+
+tabel prioritati
+		
+instructiuni
+
+expresie
+bloc sau compusa
+if
+switch
+break
+while
+do while
+for
+
+fisiere si directoare
+		hdd ssd fd dvd cd flash sd ...
+text
+		linii de siruri de caractere 
+tablou
+		
+vector
+		lista de variabile sau valori
+matrice
+		tablou de variabile pe randuri si coloane
+string sir de caractere
+		char [10]
+		string s = "alfa";
+		char s = 'a';
+pointer
+		declarare
+		referentiere
+		int *p ;		
+		*p = &a;
+		printf(p);
+referinte
+		int a = 10;
+		int &ref = a;
+		
+enumeratii
+		lista de valori sau perechi valoare cheie
+structuri struct
+		structura de mai multe variabile
+		poate contine si metode
+		
+uniuni union
+		contine mai multe variabile insa poate retine doar una din acestea
+campuri de date
+		structuri in care fiecare camp are valoare fixa
+		
+
+typedef
+		definitie de tip de data declarat de utilizator
+
+structura de date
+algoritm
+		DSA
+stack stiva	
+		structura de date 
+		asemeana unei stive de farfuri
+		LIFO
+		last in firs out
+		se adauga in stiva valori si se poate scoate 
+		pe rand una cate una doar valoarea din varf
+queue coada	
+		structura de date
+		asemenea unei cozi 
+		FIFO
+		first in first out 
+		se adauga in coada valori si se poate 
+		scoate pe rand doar cea mai veche valoare sau prima 
+
+functii
+		subprograme
+		se pot apela
+		i se pot transmite parametrii
+		au argumente 
+		returneaza valori
+		executa blocuri de comenzi in interior
+		asemenea unei functii matematice
+subprogram
+
+definitie
+declarare
+		orice functie sau obiect trebuie inainte 
+		facut cunoscut compilatorului
+apel
+		call by ref
+		call by val
+		call by pointer
+variable
+globale
+locale
+scope
+omonimie
+rezolutie
+		variabilele pot fi accesate local sau global
+		variabilele locale nu pot fi accesate global
+
+clase de memorare
+		public private static protected...		
+functia main
+parametrii
+argumente
+		env 
+		argv
+		argc
+
+functii inline
+		sunt declarate si definite in acelasi timp
+
+overload
+		tipurile de data au lungime maxima si minima
+		daca o valoare mai mare decat lungimea
+		unui tip de data este utilizata atunci avem o eroare
+overwrite
+		functiile pot accepta mai multe tipuri de date
+		pentru aceasta ele se pot declara si definit sub 		acelasi nume lucru care permite aceasta
+		
+template	
+		sunt tipuri de date care nu sunt definite
+		pot inlocui overwrite
+		
+
+codul ascii
+		tabelul cu coduri de caractere de 8 biti lungime
+		4 bit x 4 bit rand coloana
+		256 caractere pe 8 biti lungime
+		128 + 128
+sisteme de numeratie
+		baza de numeratie
+		2 4 8 10 16 
+		coduri bcd gray 
+		cod morse
+
+organizarea logica a memoriei
+		ram
+		rom
+		flash
+		interna
+		...
+				
+reprezentarea datelor in memorie
+		
+etapele dezvoltari unui program
+
+standard library
+
+stl
+		contine functii, variabile, si structuri de date
+		dar si algoritmi imprementati deja
+
+mediul de programare
+	software
+		sistem de operare
+		ide
+			compilator
+			ide
+			editor
+			make	
+			debug
+			preprocesare
+			librari
+			
+		librari si limbaj de programare	
+	hardware
+		masina de calcul
+	locatie
+		acasa
+		birou
+		...
+
+arhitectura calculatoarelor
+	hardware
+		interne
+		externe
+
+		cpu
+		mb
+		ram
+		hdd
+		display
+		kb
+		mouse
+		power source
+		case
+		printer
+		scanner
+		camera
+		sound
+	bios
+		cmos
+	software
+		os
+		programe
+	retea
+		wired
+		wireless
+			wifi
+			radio 2345g
+		
+oop
+	programarea cu obiecte si clase
+
+retelistica
+	programare retele
+
+comunicatii de retea
+	
+tehnologi web internet
+	html
+	css
+	php
+	javascript
+	vbscript
+	browser
+	server
+	client
+	isp
+
+	
+		
+electronica
+	analogica
+	digitala
+	
+fizica
+
+electrica
+
+matematica
+
+gramatica
+
+desen tehnic
+
+electro tehnica
+
+chimie
+
+biologie
+
+
